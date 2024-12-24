@@ -1,38 +1,58 @@
-# Post Management Application (Live Coding Problem)
+# Post Management Application Team Exercise
 
-In this exercise, you will develop a **Post Management Application** using React and the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/guide/). The application should allow users to list, create, update, and delete posts, focusing on core functionality and local state updates.
+## Overview
+In this exercise, your team will collaboratively develop a **Post Management Application** using React, React Native, and the JSONPlaceholder API.
+
+### Objective
+The application should allow users to:
+1. List posts
+2. Create a new post
+3. Update an existing post
+4. Delete a post
+
+Your goal is to implement all core features, ensuring the application's local state updates correctly for each operation. The application must include:
+- **Web Interface**: Built with React.
+- **Mobile Interface**: Built with React Native.
+- **Reusable Utility Functions**: For API communication with JSONPlaceholder.
+
+---
 
 ## Requirements
 
 ### 1. List Posts
 - Fetch and display a list of 20 posts from the JSONPlaceholder API.
-- Each post should display the title and body.
-- Include a "Reload" button to manually refresh the list.
+- Display each post's title and body.
 
 ### 2. Create a Post
-- Implement a form to create a new post (title and body).
-- On form submission, send a `POST` request and update the local state.
+- Provide a form to create a new post with a title and body.
+- On form submission, send a `POST` request to the API.
+- Update the local state to include the newly created post.
 
 ### 3. Delete a Post
-- Add a delete button for each post.
-- On click, send a `DELETE` request and update the local state.
+- Include a delete button for each post.
+- On clicking delete, send a `DELETE` request to the API.
+- Update the local state to remove the deleted post.
 
 ### 4. Update a Post
-- Add an edit button for each post to allow editing of the title and body.
-- Populate the form fields with existing data for editing.
-- Send a `PUT` request on submission and update the local state.
+- Provide an option to edit an existing post (title and body).
+- On form submission, send a `PUT` request to the API.
+- Update the local state with the updated post information.
 
-## Guidelines
-- Use React's `useState` and `useEffect` for state management.
-- Handle API errors gracefully (e.g., display error messages).
-- Focus on functionality, not styling.
-- Optional: Add pagination, search, or toast notifications for additional polish.
+---
 
-## Collaboration
-- Suggested team roles: API Integration, UI/UX, State Management, Error Handling.
+## Collaboration Guidelines
 
-## API Guide
-Refer to the [JSONPlaceholder API guide](https://jsonplaceholder.typicode.com/guide/) for details on endpoints.
+- **Time Management**: You have 2 hours to complete the exercise. Prioritize collaboration and communication.
 
-## Deliverable
-A functional single-page React app meeting the above requirements.
+- **Expected Deliverables**:
+  - A single-page web application with CRUD functionality.
+  - A basic mobile application with similar functionality.
+  - Reusable utility functions for API calls.
+  - Clean, readable code and a functional application.
+
+---
+
+## Resources
+- [JSONPlaceholder API Guide](https://jsonplaceholder.typicode.com/guide/)
+- [React Documentation](https://reactjs.org/)
+- [React Native Documentation](https://reactnative.dev/)
