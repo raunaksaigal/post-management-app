@@ -56,3 +56,58 @@ Your goal is to implement all core features, ensuring the application's local st
 - [JSONPlaceholder API Guide](https://jsonplaceholder.typicode.com/guide/)
 - [React Documentation](https://reactjs.org/)
 - [React Native Documentation](https://reactnative.dev/)
+
+##  Getting started
+To get started clone the repo and inside it open three terminal instances
+
+Then follow the following commands
+
+### Starting the backend
+
+**Create a new environment (optional)**
+
+For Windows
+
+```jsx
+py -m venv venv
+./venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+For UNIX
+
+```
+python -m venv venv
+./venv/bin/activate
+pip install -r requirements.txt
+```
+
+Then run the following scripts
+
+```
+cd ./post_management_app
+py manage.py runserver 0.0.0.0:8000
+
+```
+
+### Starting the Web Interface
+In the separate terminal
+
+```
+cd cd ./nirmaan-website
+npm i
+npm run dev
+```
+
+### Start the App Interface
+
+```
+cd ./NirmaanApp
+npm i
+npm start
+```
+Connect the mobile with the expo application by scanning the app and you are good to go
+
+
+
+
