@@ -1,0 +1,41 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "phone": "+1 234 567 890",
+        "image": "https://i.pinimg.com/736x/be/38/78/be3878c34f93d1663a6e5f6af4b78e9c.jpg",
+        "address": "1234 Elm Street, Springfield, IL, 62704",
+        "bio": "Just a regular guy enjoying life."
+      },
+      {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "phone": "+1 987 654 321",
+        "image": "https://i.pinimg.com/736x/27/bb/6c/27bb6c5c7e729a4cee675c52fad80ebc.jpg",
+        "address": "5678 Oak Road, Shelbyville, IL, 62565",
+        "bio": "I love photography and traveling."
+      },
+      {
+        "id": 3,
+        "username": "alice_johnson",
+        "email": "alice.johnson@example.com",
+        "phone": "+1 555 123 456",
+        "image": "https://i.pinimg.com/736x/a0/71/7f/a0717f49b5cbba2bfdc64171f76425f5.jpg",
+        "address": "9101 Pine Avenue, Capital City, IL, 62710",
+        "bio": "Tech enthusiast and nature lover."
+      },
+      {
+        "id": 4,
+        "username": "bob_brown",
+        "email": "bob.brown@example.com",
+        "phone": "+1 666 789 012",
+        "image": "https://i.pinimg.com/736x/3c/72/19/3c721910728c63ca37d06c5dc7b0c5b5.jpg",
+        "address": "1122 Maple Lane, Rivertown, IL, 62711",
+        "bio": "Explorer and coffee aficionado."
+      }
+    ]
+  }
+  

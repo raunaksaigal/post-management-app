@@ -1,0 +1,207 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "username": "user1",
+        "timestamp": "2024-12-01T10:30:00Z",
+        "title": "Beautiful Sunset",
+        "body": "Captured this amazing sunset while on a trip to the mountains.",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 2,
+        "username": "user2",
+        "timestamp": "2024-12-02T12:45:00Z",
+        "title": "Cooking Tips",
+        "body": "Sharing my top tips for making the perfect pasta dish.",
+        "file": null
+      },
+      {
+        "id": 3,
+        "username": "user3",
+        "timestamp": "2024-12-03T15:00:00Z",
+        "title": "Nature's Beauty",
+        "body": "A short video showcasing the beauty of nature.",
+        "file": {
+          "type": "video",
+          "uri": "https://youtu.be/REuUOArc0W4?si=3Hdcgvmf_5qDnex2"
+        }
+      },
+      {
+        "id": 4,
+        "username": "user4",
+        "timestamp": "2024-12-04T09:15:00Z",
+        "title": "New Hobby Alert",
+        "body": "Started learning pottery this week. It's so much fun!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 5,
+        "username": "user5",
+        "timestamp": "2024-12-05T17:30:00Z",
+        "title": "Travel Goals",
+        "body": "Bucket list: visit 50 countries before I turn 50.",
+        "file": null
+      },
+      {
+        "id": 6,
+        "username": "user6",
+        "timestamp": "2024-12-06T14:20:00Z",
+        "title": "DIY Projects",
+        "body": "Built my own bookshelf. Here's how it turned out.",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 7,
+        "username": "user7",
+        "timestamp": "2024-12-07T18:45:00Z",
+        "title": "Fitness Routine",
+        "body": "Sharing my daily workout routine for staying fit.",
+        "file": null
+      },
+      {
+        "id": 8,
+        "username": "user8",
+        "timestamp": "2024-12-08T08:30:00Z",
+        "title": "Street Art",
+        "body": "Found this amazing mural in the city center.",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 9,
+        "username": "user9",
+        "timestamp": "2024-12-09T13:50:00Z",
+        "title": "Tech Update",
+        "body": "Exploring the latest features of AI in 2024.",
+        "file": null
+      },
+      {
+        "id": 10,
+        "username": "user10",
+        "timestamp": "2024-12-10T10:10:00Z",
+        "title": "Weekend Vibes",
+        "body": "Spent the weekend at the beach. So relaxing!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 11,
+        "username": "user11",
+        "timestamp": "2024-12-11T11:25:00Z",
+        "title": "Mountain Hike",
+        "body": "Conquered a new trail this weekend!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 12,
+        "username": "user12",
+        "timestamp": "2024-12-12T16:30:00Z",
+        "title": "Gaming Setup",
+        "body": "Upgraded my gaming setup with new hardware!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 13,
+        "username": "user13",
+        "timestamp": "2024-12-13T14:00:00Z",
+        "title": "Cityscape",
+        "body": "Captured the city skyline at night.",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 14,
+        "username": "user14",
+        "timestamp": "2024-12-14T12:15:00Z",
+        "title": "Coding Challenge",
+        "body": "Participating in a 24-hour hackathon!",
+        "file": null
+      },
+      {
+        "id": 15,
+        "username": "user15",
+        "timestamp": "2024-12-15T09:50:00Z",
+        "title": "Road Trip",
+        "body": "Driving through scenic routes this holiday season.",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 16,
+        "username": "user16",
+        "timestamp": "2024-12-16T18:40:00Z",
+        "title": "Cooking Experiment",
+        "body": "Tried making a new dessert. It turned out amazing!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 17,
+        "username": "user17",
+        "timestamp": "2024-12-17T20:00:00Z",
+        "title": "Snow Adventures",
+        "body": "First snowboarding experience was thrilling!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 18,
+        "username": "user18",
+        "timestamp": "2024-12-18T14:20:00Z",
+        "title": "Book Recommendation",
+        "body": "Just finished reading 'Atomic Habits'. A must-read!",
+        "file": null
+      },
+      {
+        "id": 19,
+        "username": "user19",
+        "timestamp": "2024-12-19T13:10:00Z",
+        "title": "Art Gallery Visit",
+        "body": "Visited an art gallery today. Truly inspiring!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      },
+      {
+        "id": 20,
+        "username": "user20",
+        "timestamp": "2024-12-20T11:30:00Z",
+        "title": "Holiday Decorations",
+        "body": "Decorated the house for Christmas. It looks magical!",
+        "file": {
+          "type": "image",
+          "uri": "https://i.pinimg.com/736x/25/2d/56/252d5689d3ad034fced7e94c18c16a44.jpg"
+        }
+      }
+    ]
+  }
+  
