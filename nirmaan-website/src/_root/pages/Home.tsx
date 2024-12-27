@@ -1,28 +1,54 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import PostCard from "@/components/shared/PostCard";
-import { Link } from "react-router-dom"; // Import Link for routing
 
 type Post = {
+  id: string;
+  author: string;
+  timestamp: string;
   caption: string;
-  file: any[];
   location: string;
   tags: string;
+  file: string; // File is a string (URL)
 };
 
 const Home = () => {
   const [posts, setPosts] = useState<Post[]>([]);
 
+  useEffect(() => {
+    const fetchPosts = async () => {
+      try {
+        const response = await fetch('http://10.10.10.92:8000/api/v1/posts/?perpage=2&page=1');
+        const data = await response.json();
+        setPosts(data.results as Post[]); // Cast API data to Post[]
+      } catch (error) {
+        console.error('Error fetching posts:', error);
+      }
+    };
+
+    fetchPosts();
+  }, []);
+
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">Home Feed</h1>
-      {/* Display posts */}
       {posts.length > 0 ? (
-        posts.map((post, index) => (
-          <PostCard author={""} timestamp={""} title={""} description={""} key={index} {...post} />
+        posts.map((post) => (
+          <PostCard
+            key={post.id}
+            author={post.author}
+            timestamp={post.timestamp}
+            caption={post.caption}
+            location={post.location}
+            tags={post.tags}
+            file={post.file}
+          />
         ))
       ) : (
-        <p>No posts yet. Create one to get started!</p>
+        <p></p>
       )}
+      <PostCard author={"Ayaan"} timestamp={"3:55 pm"} caption={"Hi! this is my first post"} location={"Kolkata"} tags={"test"} file={""}/>
+      <PostCard author={"Debrup"} timestamp={"3:55 pm"} caption={"Hi! this is my second post"} location={"Kolkata"} tags={"test"} file={""}/>
+
     </div>
   );
 };
